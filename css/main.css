@@ -41,7 +41,6 @@ h1 {
 
 /*primera seccion */
 main.container{
-  float: left;
   padding-left: 10%;
   padding-right:10%;
 }
@@ -57,7 +56,6 @@ main.container{
 
 /* segunda seccion*/
 .text-area{
-  float: right;
   background-color: white;
   height: 300px;
   width:450px;
