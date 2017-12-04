@@ -1,3 +1,4 @@
+
 document.getElementById("button").addEventListener("click", content);
 /*document.getElementById("text").addEventListener("click", content);
 document.getElementById("text").addEventListener("click", content);*/ ambos sirve para el conteo de caracteres
@@ -20,3 +21,4 @@ function content (event){
  twittCont.setAttribute("id","third_container");
  document.body.appendChild(twittCont);
 }
+document.getElementById("text").addEventListener("keypress", count);
