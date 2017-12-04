@@ -1,98 +1,140 @@
 * {
-  box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  margin: 0;
-  padding: 0;
+ box-sizing: border-box;
+ font-family: 'Catamaran', sans-serif;
+ font-size: 14px;
+ margin: 0;
+ padding: 0;
 }
 
 body {
-  background-image: url(../assets/images/zocalo.png);
-  background-position:center;
-  background-repeat:no-repeat;
-  background-size:cover;
-  height:600px;
-  margin-top:80px;
+ background-image: url(../assets/images/christmas_lights.jpg);
+ background-position:center;
+ background-repeat:no-repeat;
+ background-size:cover;
+ height:600px;
+ margin-top:80px;
 }
 
 header {
   background-color: rgb(107,208,240);
-   color: white;
-   height: auto;
-   top: 0;
-   width: 100%;
-   position: fixed;
-   z-index: 100;
-   text-align:center;
+  color: white;
+  height: auto;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  text-align:center;
 }
-.inline_seccion{
-  display: inline-block;
-  margin-left:10px;
-  margin-top:30px;
-  padding-right:10px;
+
+header > h1 {
+ font-size: 40px;
+ padding-left: 1%;
+ padding-top: 1%;
+ padding-bottom: 1%;
+}
+
+#first_container {
+ float: left;
+ margin-left: 10%;
+}
+
+.profile {
+ display: inline-block;
+ margin-left:10px;
+ margin-top:30px;
+ padding-right:10px;
 }
 
 
-h1 {
-    font-size: 35px;
-    padding-left: 1%;
-    padding-top: 1%;
+.greeting > h2 {
+   font-size: 35px;
+   padding-top: 1%;
+   padding-bottom: 2%;
+}
+
+hr {
+ margin-top: 5%;
+ margin-bottom: 5%;
+ width: 95%;
+ height: 1%;
+ background-color: lightgray;
+ border: none;
+}
+
+.greeting  > h1 {
+   font-size: 25px;
+   padding-left: 1%;
+   padding-top: 1%;
+   color: rgb(102, 183, 221);
 }
 
 /*primera seccion */
-main.container{
-  padding-left: 10%;
-  padding-right:10%;
-}
+/*main.container{
+ padding-left: 10%;
+ padding-right:10%;
+}*/
 
-.hi_container{
-  width:450px;
-  height: 300px;
-  background-color: white;
-  padding-top:50px;
-  padding-left:20px;
+.greeting {
+ width:450px;
+ height: 300px;
+ background-color: white;
+ padding-top:50px;
+ padding-left:20px;
 }
 
 
 /* segunda seccion*/
-.text-area{
+#second_container {
+ float: right;
+ margin-right: 10%;
+ margin-top: 2%;
+}
+
+
+.message_box {
+ background-color: white;
+ padding: 5%;
+ height: 300px;
+ width: 490px;
+}
+
+textarea {
   background-color: white;
-  height: 300px;
-  width:450px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: medium;
+  width: 450px;
+  height: auto;
+  border-color: rgba(177, 210, 220, 0.78);
+  overflow: hidden;
+  padding: 10px;
 }
 
-textarea{
-   background-color: white;
-   border-top: none;
-   border-left: none;
-   border-right: none;
-   border-width: medium;
-   width: 450px;
-   border-color: rgba(177, 210, 220, 0.78);
-   overflow: hidden;
-   box-sizing: padding-box;
-   padding: 10px;
-}
-
-.boton{
-  width: 50px;
-  height: 20px;
-  background-color: rgb(107,208,240);
-  padding: 10px 20px;
-  text-align: center;
-  cursor: pointer;
+.button {
+ display: inline-block;
+ background-color: rgb(107,208,240);
+ padding: 2% 3%;
+ margin-top: 5%;
+ margin-left: 5%;
+ border-radius: 5px;
+ border: none;
+ color: white;
+ cursor: pointer;
 }
 
 .boton:hover{
-  background-colo: white;
+ background-color: white;
 }
-/* tercera seccion*/
 
-.block_seccion{
-  width: 100%;
+
+/* tercera seccion*/
+.twitt_section {
+  float: left;
+  width: 70%;
   height: auto;
   background-color: white;
-  margin-top:30px;
-  margin-left:10px;
+  margin-top: 5%;
+  margin-left: 15%;
   padding: 10px 20px;
 }

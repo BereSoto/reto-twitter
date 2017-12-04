@@ -1,48 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Twitter</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
-    <script type="text/javascript" src="js/app.js">
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/main.css">
+   <title>Twitter</title>
+   <link rel="icon" type="image/png" href="assets/images/twitter-icon.png">
+ </head>
+ <body>
 
-    </script>
+   <!-- Solamente necesitamos el Título de Twitter para esta version, así que solo aplicaremos un estructura simple -->
+   <header>
+     <h1>Twitter</h1>
+   </header>
 
-  </head>
-  <body>
-    <!-- estructura del header -->
-<header>
-  <h1>Tweet</h1>
-</header>
-<main class="container">
+   <main class="main_container">
 
-    <!--estructura de la primera seccion -->
-    <section id="greetting" class="inline_seccion">
-      <div class="hi_container">
-        <h2>RETO DE CODIGO</h2>
-        <p>Hola,</p>
-        <p>soy front-end developer jr.</p>
-      </div>
-    </section>
+     <!-- En la primera seccion se encargará de dar nuestra información general (Perfil) así como lo hace Twitter.
+         Para esta version simple, solamente agregaremos "..Soy Frontend Developer Junior." -->
+     <section id="first_container" class="profile">
+       <div class="greeting">
+         <h2>RETO DE CÓDIGO</h2>
+         <p>Hola,</p>
+         <p>soy Frontend Developer Junior.</p>
+         <hr>
+         <h1>CÓDIGO</h1>
+       </div>
+     </section>
 
-    <!--estructura de la segunda seccion -->
-    <section id="input_text" class="inline_seccion">
-      <div class="text-area">
-        <textarea name="text" class='autoExpand' rows="1"></textarea>
-        <span class="boton">Tweet</span>
-      </div>
-    </section>
+     <!-- En la segunda sección de nuestra página estará nuestro contenedor donde ingresaremos un mensaje,
+         al igual como lo hace Twitter, así como un botón que acompañará a nuestro texto ingresado para que
+         pueda mandar nuestro Status a nuestro propio perfil. -->
+     <section id="second_container" class="input_text">
+       <div class="message_box">
+         <textarea id="text" class='autoExpand' rows="autoExpand" placeholder="¿Qué estás pensando?"></textarea>
+         <button id="button" class="button" onclick="twitt">TWEET</button>
+         <div class="counter">140</div>
+       </div>
+     </section>
 
-
-
-    <!--estructura de la tercera seccion -->
-    <section id="show_twitt" class="block_seccion">
-      <div class="twiit">
-        <p>hola soy un tweet</p>
-      </div>
-    </section>
-</main>
-
-   </body>
+     <!-- En la tercera seccion nos dedicaremos a mostrar los mensajes que agregaste a la caja de twit. -->
+     <section id="third_container" class="twitt_section">
+       <div class="twitt_box">
+         <p id="twitt">Your twitt.</p>
+       </div>
+     </section>
+   </main>
+   <script type="text/javascript" src="js/app.js"></script>
+ </body>
 </html>
