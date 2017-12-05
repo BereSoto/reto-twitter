@@ -1,3 +1,4 @@
+
 document.getElementById("btn").addEventListener("click", cont);
 document.getElementById("text").addEventListener("keyup", contCaracteres);
 document.getElementById("text").addEventListener("keyup", btnEvent);
@@ -123,3 +124,4 @@ function clock(){
   var clockSet = hour + ":" + minutes+ " " +dateTime;
   return clockSet;
 };
+
