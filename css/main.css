@@ -28,32 +28,6 @@ header {
   text-align:center;
 }
 
-header > h1 {
- font-size: 40px;
- padding-left: 1%;
- padding-top: 1%;
- padding-bottom: 1%;
-}
-
-#first-container {
- float: left;
- margin-left: 10%;
-}
-
-.profile {
- display: inline-block;
- margin-left:10px;
- margin-top:30px;
- padding-right:10px;
-}
-
-
-.greeting > h2 {
-   font-size: 35px;
-   padding-top: 1%;
-   padding-bottom: 2%;
-}
-
 hr {
  margin-top: 5%;
  margin-bottom: 5%;
@@ -90,25 +64,13 @@ hr {
  float: right;
  margin-right: 10%;
  margin-top: 2%;
- /* width:300px; */
- height: 400px;
- /* background-color: white; */
 }
-
-#contador
-{
-  text-align: right;
-}
-
-.message-box {
  background-color: white;
  padding: 5%;
  height: 300px;
  width: 490px;
+  }
 
-}
-
-textarea{
   background-color: white;
   border-top: none;
   border-left: none;
@@ -119,10 +81,7 @@ textarea{
   border-color: rgba(177, 210, 220, 0.78);
   overflow: hidden;
   padding: 10px;
-
 }
-
-
 .button {
  display: inline-block;
  background-color: rgb(107,208,240);
@@ -138,28 +97,6 @@ textarea{
 .boton:hover{
  background-color: white;
 }
-
-
-#input_text{
-  display: inline-block;
-  float: right;
-  background-color: white;
- }
-
-.counter{
-  float: right;
-  position: absolute;
-  bottom: 15px;
-  right: 4px;
-  font-size: 18px;
-  color: black;
-  margin-left: 300px;
-}
-
-#counter !important{
-  color: black;
-}
-
 
 /* tercera seccion*/
 .twitt_section {
