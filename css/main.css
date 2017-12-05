@@ -4,6 +4,8 @@
  font-size: 14px;
  margin: 0;
  padding: 0;
+ /* display: inline-block; */
+ /* background-color: white; */
 }
 
 body {
@@ -24,6 +26,7 @@ header {
   position: fixed;
   z-index: 100;
   text-align:center;
+}
 
 hr {
  margin-top: 5%;
@@ -57,12 +60,11 @@ hr {
 
 
 /* segunda seccion*/
-#second_container {
+#second-container {
  float: right;
  margin-right: 10%;
  margin-top: 2%;
-  }
-.message_box {
+}
  background-color: white;
  padding: 5%;
  height: 300px;
@@ -109,18 +111,21 @@ hr {
 
 /*Muestra la seccion al momento de ingresar el texto*/
 .secc-bloque{
- width: 100%;
+ width: 95%;
  height: auto;
  background-color: white;
- margin-top:30px;
- margin-left:10px;
+ margin-top: 30px;
+ margin-left: auto;
+ margin-right: auto;
  padding: 10px 20px;
  columns: auto;
  overflow: auto;
+ /* display: block; */
+ /* position: static; */
 }
 
 .autoExpand{
-  float: right;
+  float: left;
   text-align: left;
   display: block;
   width: 400px;
