@@ -24,33 +24,6 @@ header {
   position: fixed;
   z-index: 100;
   text-align:center;
-}
-
-header > h1 {
- font-size: 40px;
- padding-left: 1%;
- padding-top: 1%;
- padding-bottom: 1%;
-}
-
-#first_container {
- float: left;
- margin-left: 10%;
-}
-
-.profile {
- display: inline-block;
- margin-left:10px;
- margin-top:30px;
- padding-right:10px;
-}
-
-
-.greeting > h2 {
-   font-size: 35px;
-   padding-top: 1%;
-   padding-bottom: 2%;
-}
 
 hr {
  margin-top: 5%;
@@ -88,17 +61,14 @@ hr {
  float: right;
  margin-right: 10%;
  margin-top: 2%;
-}
-
-
+  }
 .message_box {
  background-color: white;
  padding: 5%;
  height: 300px;
  width: 490px;
-}
+  }
 
-textarea {
   background-color: white;
   border-top: none;
   border-left: none;
@@ -110,7 +80,6 @@ textarea {
   overflow: hidden;
   padding: 10px;
 }
-
 .button {
  display: inline-block;
  background-color: rgb(107,208,240);
@@ -127,7 +96,6 @@ textarea {
  background-color: white;
 }
 
-
 /* tercera seccion*/
 .twitt_section {
   float: left;
@@ -137,4 +105,26 @@ textarea {
   margin-top: 5%;
   margin-left: 15%;
   padding: 10px 20px;
+}
+
+/*Muestra la seccion al momento de ingresar el texto*/
+.secc-bloque{
+ width: 100%;
+ height: auto;
+ background-color: white;
+ margin-top:30px;
+ margin-left:10px;
+ padding: 10px 20px;
+ columns: auto;
+ overflow: auto;
+}
+
+.autoExpand{
+  float: right;
+  text-align: left;
+  display: block;
+  width: 400px;
+}
+.autoExpand:focus{
+  outline: none;
 }
