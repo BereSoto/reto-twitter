@@ -4,6 +4,8 @@
  font-size: 14px;
  margin: 0;
  padding: 0;
+ /* display: inline-block; */
+ /* background-color: white; */
 }
 
 body {
@@ -33,7 +35,7 @@ header > h1 {
  padding-bottom: 1%;
 }
 
-#first_container {
+#first-container {
  float: left;
  margin-left: 10%;
 }
@@ -84,16 +86,21 @@ hr {
 
 
 /* segunda seccion*/
-#second_container {
+#second-container {
  float: right;
  margin-right: 10%;
  margin-top: 2%;
- m
-
+ /* width:300px; */
+ height: 400px;
+ /* background-color: white; */
 }
 
+#contador
+{
+  text-align: right;
+}
 
-.message_box {
+.message-box {
  background-color: white;
  padding: 5%;
  height: 300px;
@@ -167,18 +174,21 @@ textarea{
 
 /*Muestra la seccion al momento de ingresar el texto*/
 .secc-bloque{
- width: 100%;
+ width: 95%;
  height: auto;
  background-color: white;
- margin-top:30px;
- margin-left:10px;
+ margin-top: 30px;
+ margin-left: auto;
+ margin-right: auto;
  padding: 10px 20px;
  columns: auto;
  overflow: auto;
+ /* display: block; */
+ /* position: static; */
 }
 
 .autoExpand{
-  float: right;
+  float: left;
   text-align: left;
   display: block;
   width: 400px;
